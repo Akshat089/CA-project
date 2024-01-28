@@ -1,0 +1,43 @@
+0 // count
+10 //divide use
+153 //num
+153 //original_num
+153 //final_no
+0 // result
+0 // flag
+15//  num after first iteration
+1// count after first iteration
+2 // count after second iteration
+1 // num after second iteration
+3 // count after first iteration
+0 // num and loop breaks
+3 // modulo after original_num is divided by 10
+27 // 3 is cubed
+27 // result after 1st iteration
+15 // original_num divided by 10
+5 // remainder in 2nd iteration
+125 // 5 is cubed
+152// 125 and 27 are added
+1 // original_num is diveded by 10 and remainder
+1 // 1 is cubed
+153 // final 
+0 // original_num is zero
+1 // flag value
+0 // for compare function
+
+LOAD_M 3 DIV_M 2
+LOAD_MQ 0 STORE_M 3
+LOAD_M 1 ADD_M 9
+STORE_M 1 LOAD_M 3
+JUMP_+_M 28
+
+LOAD_M 4 DIV_M 2
+CUBE_M 0 STORE_M 15
+LOAD_MQ 0 STORE_M 17
+LOAD_M 6 ADD_M 15
+STORE_M 6 LOAD_M 17
+JUMP_+_M 34
+
+LOAD_M 5 SUB_M 6
+COMP_M 26 LOAD_M 7
+ADD_M 25 STORE_M 7
